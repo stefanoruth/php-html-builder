@@ -1,5 +1,15 @@
 {
     "require": {
         "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruth\\HtmlBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ruth\\HtmlBuilder\\Tests\\": "tests/"
+        }
     }
 }
