@@ -16,4 +16,5 @@ Result
 </div>
 ```
 
-Running tests `vendor/bin/phpunit`
+### Tests
+Running tests in console `vendor/bin/phpunit`
