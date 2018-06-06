@@ -11,7 +11,7 @@ Html::tag('div')->class('foo')->id('bar')->addChild(
 ```
 Result
 ```html
-<div>
+<div class="foo" id="bar">
     <a href="/login">Login</a>
 </div>
 ```
